@@ -1,0 +1,26 @@
+# Entornos Virtuales
+venv/
+env/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Datos (No subir datos crudos masivos al repo)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Modelos y logs de experimentación
+models/*.pkl
+models/*.txt
+logs/*.json
+!models/.gitkeep
+!logs/.gitkeep
+
+# Archivos de SO
+.DS_Store
+Thumbs.db
